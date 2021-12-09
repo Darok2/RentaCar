@@ -13,7 +13,25 @@ export class Asesor extends Entity {
     type: 'string',
     required: true,
   })
-  solicitud: string;
+  nombre: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  apellidos: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  email: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  celular: string;
 
 
   constructor(data?: Partial<Asesor>) {

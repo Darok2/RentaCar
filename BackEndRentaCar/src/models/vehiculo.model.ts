@@ -13,7 +13,7 @@ export class Vehiculo extends Entity {
     type: 'string',
     required: true,
   })
-  tipovehiculo: string;
+  tipoVehiculo: string;
 
   @property({
     type: 'number',
@@ -40,10 +40,10 @@ export class Vehiculo extends Entity {
   estado: string;
 
   @property({
-    type: 'boolean',
+    type: 'string',
     required: true,
   })
-  fotos: boolean;
+  foto: string;
 
   @property({
     type: 'string',
@@ -62,18 +62,6 @@ export class Vehiculo extends Entity {
     required: true,
   })
   modelo: string;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
-  cliente: string;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
-  solicitud: string;
 
 
   constructor(data?: Partial<Vehiculo>) {

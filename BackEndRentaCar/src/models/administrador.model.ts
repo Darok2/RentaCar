@@ -13,7 +13,25 @@ export class Administrador extends Entity {
     type: 'string',
     required: true,
   })
-  asesor: string;
+  nombre: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  apellido: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  email: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  celular: string;
 
 
   constructor(data?: Partial<Administrador>) {

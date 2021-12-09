@@ -13,13 +13,19 @@ export class Cliente extends Entity {
     type: 'string',
     required: true,
   })
-  usuario: string;
+  nombre: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  clave: string;
+  apellidos: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  email: string;
 
   @property({
     type: 'string',
@@ -31,7 +37,7 @@ export class Cliente extends Entity {
     type: 'string',
     required: true,
   })
-  asesor: string;
+  password: string;
 
 
   constructor(data?: Partial<Cliente>) {

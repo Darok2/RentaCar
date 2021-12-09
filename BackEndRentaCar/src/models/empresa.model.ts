@@ -22,10 +22,10 @@ export class Empresa extends Entity {
   descripcion: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  porcentajeparticipacion: number;
+  porcentajeParticipacion: string;
 
   @property({
     type: 'string',
@@ -38,18 +38,6 @@ export class Empresa extends Entity {
     required: true,
   })
   ciudad: string;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
-  administrador: string;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
-  asesor: string;
 
 
   constructor(data?: Partial<Empresa>) {

@@ -13,13 +13,19 @@ export class Solicitud extends Entity {
     type: 'string',
     required: true,
   })
-  tiposolicitud: string;
+  tipoSolicitud: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  cliente: string;
+  asesorId: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  vehiculoId: string;
 
 
   constructor(data?: Partial<Solicitud>) {
