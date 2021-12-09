@@ -1,5 +1,22 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-(0, tslib_1.__exportStar)(require("./ping.controller"), exports);
+(0, tslib_1.__exportStar)(require("./administrador-empresa.controller"), exports);
+(0, tslib_1.__exportStar)(require("./asesor-administrador.controller"), exports);
+(0, tslib_1.__exportStar)(require("./administrador-asesor.controller"), exports);
+(0, tslib_1.__exportStar)(require("./asesor-empresa.controller"), exports);
+(0, tslib_1.__exportStar)(require("./asesor-cliente.controller"), exports);
+(0, tslib_1.__exportStar)(require("./asesor-solicitud.controller"), exports);
+(0, tslib_1.__exportStar)(require("./cliente-asesor.controller"), exports);
+(0, tslib_1.__exportStar)(require("./empresa-administrador.controller"), exports);
+(0, tslib_1.__exportStar)(require("./empresa-asesor.controller"), exports);
+(0, tslib_1.__exportStar)(require("./solicitud-cliente.controller"), exports);
+(0, tslib_1.__exportStar)(require("./vehiculo-cliente.controller"), exports);
+(0, tslib_1.__exportStar)(require("./vehiculo-solicitud.controller"), exports);
+(0, tslib_1.__exportStar)(require("./administrador.controller"), exports);
+(0, tslib_1.__exportStar)(require("./asesor.controller"), exports);
+(0, tslib_1.__exportStar)(require("./cliente.controller"), exports);
+(0, tslib_1.__exportStar)(require("./empresa.controller"), exports);
+(0, tslib_1.__exportStar)(require("./solicitud.controller"), exports);
+(0, tslib_1.__exportStar)(require("./vehiculo.controller"), exports);
 //# sourceMappingURL=index.js.map
